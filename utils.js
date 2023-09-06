@@ -13,7 +13,7 @@ function shuffle(array) {
 }
 
 function cards(array) {
-  let temp = String;
+  let temp = '';
   for (let i in array) {
     temp += `${array[i]} `;
   }
